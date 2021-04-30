@@ -1,10 +1,19 @@
-# Git and Git-hub set-up guide
-## Part 1: Getting Started 
+# GIT HUB 
+- What are the stages of git on local host?
+- How can you reset/cancel if you have already run git add . command?
+- What is a git staging area?
+- Workflow and the stages?
+- Git merge and merge conflicts?
+- Best practice to resolve git merge conflicts?
+- Research around best practices of git and git-hub?
+
+## Git and Git-hub set-up guide
+### Part 1: Getting Started 
 
 - Have Git installed on your computer
 - Create a Github account
 
-## Part 2 : SSH and ID
+### Part 2 : SSH and ID
 
 - Generate an SSH key to allow your local machine to push changes to your Github account
 - Type 
@@ -13,7 +22,7 @@
 -Navigate to the ```id_rsa.pub file``` and open it via text editor
 - Go to your user profile on Github, enter the settings, go to the "SSH and GPG keys", and add the SSH key for the text editor in the appropriate input field
 
-## Part 3 : Setting up a Repositry
+### Part 3 : Setting up a Repositry
 - create a folder for your project on your machine
 - Initialise the repository with git init
 - In this folder, create a file called README.md via the command touch README.md
@@ -22,5 +31,4 @@
 - Write a commit with git commit -m "first commit"
 -type git config --global user.email "<your_email@example.com>"
 -finally git push -u origin main
-  
- # DONE
+
